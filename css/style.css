@@ -19,7 +19,6 @@ body {
 
 .main-header-menu-link {
     text-decoration: none;
-    font-family: Roboto;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -46,7 +45,6 @@ body {
 
 .main-header-address-link{
     text-decoration: none;
-    font-family: Roboto;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -66,7 +64,6 @@ body {
 
 .hero-header{
     text-align: center;
-    font-family: Roboto;
     font-size: 56px;
     font-style: normal;
     font-weight: 700;
@@ -77,7 +74,6 @@ body {
 }
 
 .hero-cta{
-    font-family: Roboto;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -104,3 +100,85 @@ pre {
 .section-one-item{
     list-style-type: none;
 }
+
+.section-two-header {
+    color: var(--navyblue, #2E2F42);
+        text-align: center;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 40px;
+        letter-spacing: 0.72px;
+        text-transform: capitalize;
+}
+
+.section-two-item {
+    list-style-type: none;
+}
+
+.section-three {
+    background: var(--cloud, #F4F4FD);
+}
+
+.section-three-header {
+    color: var(--navyblue, #2E2F42);
+    text-align: center;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+}
+
+.section-three-item {
+    list-style: none;
+}
+
+.section-three-item-header {
+    color: var(--navyblue, #2E2F42);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+    text-align: center;
+}
+
+.section-three-item-description {
+    color: var(--slate, #434455);
+    text-align: center; 
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+}
+
+.footer-section{
+    background: var(--navyblue, #2E2F42);
+}
+
+.footer{
+    text-decoration: none;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 21px;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+    color: var(--cloud, #F4F4FD);
+}
+
+.footer-description {
+    color: var(--cloud, #F4F4FD);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+}
+
+
