@@ -2,6 +2,10 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.hero-cta, .menu-button {
+    cursor: pointer;
+}
+
 .logo {
     font-family: Raleway;
     font-size: 18px;
@@ -27,6 +31,10 @@ body {
     color: var(--navyblue, #2E2F42);
 }
 
+.main-header-menu-link:hover, .main-header-menu-link:focus{
+    color: var(--ocean, #404BBF);
+}
+
 .main-header-link {
     text-decoration: none;
     font-family: Raleway;
@@ -41,6 +49,10 @@ body {
 
 .main-header-address{
     list-style-type: none;
+}
+
+.main-header-address-link:hover, .main-header-address-link:focus{
+    color: var(--ocean, #404BBF);
 }
 
 .main-header-address-link{
@@ -60,6 +72,11 @@ body {
 
 .hero-cta{
     text-transform: capitalize;
+}
+
+.hero-cta:hover, .hero-cta:focus{
+    color: var(--ocean, #404BBF);
+    background: var(--cloud, #F4F4FD);
 }
 
 .hero-header{
@@ -185,7 +202,7 @@ pre {
     list-style-type: none;
 }
 
-.menu-button-one{
+.menu-button:hover, .menu-button:focus{
     color: var(--white, #FFF);
     text-align: center;
     font-family: Roboto;
